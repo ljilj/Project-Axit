@@ -1,0 +1,67 @@
+@font-face {
+    font-family: opensans;
+    src: url(fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+body {
+    font-family: opensans;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: var(--color-white);
+
+    @media (min-width: 991px) {
+        font-size: 5rem;
+    }
+
+    span {
+        color: var(--color-warning); 
+        font-weight: 100;
+
+        @media (min-width: 991px) {
+            font-size: 5rem;
+        }
+    }
+}
+
+h2 {
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-block-end: 2rem;
+
+    @media (min-width: 991px) {
+        font-size: 2.3rem;
+    }
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+    color: var(--color-white);
+    background-color: var(--color-warning);
+}
+
+h5 {
+    font-size: 0.875rem;
+    font-weight: 100;
+}
+
+p {
+    font-weight: 100;
+    color: var(--color-grey);
+}
+
+a {
+    font-style: normal;
+}
+
+textarea {
+    font-family: 'Open Sans', sans-serif;
+}
+

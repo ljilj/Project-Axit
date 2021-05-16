@@ -1,0 +1,36 @@
+.c-btn {
+    padding: 0.625rem 1.875rem;
+    text-align: center;
+    font-size: 1.125rem;
+    font-family: opensans;
+    border: none;
+    background-color: transparent;
+    color: var(--color-white);
+    border: 2px solid var(--color-white);
+
+    &:hover {
+        background-color: var(--color-warning);
+        border: 2px solid var(--color-warning);
+    }
+}
+
+.c-btn--size {
+    margin: 2rem 0;
+}
+
+.c-btn--block {
+    padding: 1.5rem 0;
+    margin-block-start: 2rem; 
+}
+
+.c-btn--warning {
+    background-color: var(--color-warning);
+    border: none;
+
+    &:hover {
+        background-color: transparent;
+        color: var(--color-warning);
+    }
+}
+
+

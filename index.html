@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Axit</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div style="display: none;">
+        <svg xmlns="http://www.w3.org/2000/svg">
+        <symbol id="download" viewBox="0 0 24 16">
+        <path d="M19.8 6.1C18.9 2.6 15.8 0 12 0C9 0 6.4 1.6 5 4.1C2.2 4.6 0 7 0 10C0 13.3 2.7 16 6 16C7 16 17.9 16 19 16C21.8 16 24 13.8 24 11C24 8.5 22.2 6.4 19.8 6.1ZM10 9V5H14V9H17L12 14L7 9H10Z"/>
+        
+        </symbol>
+        <symbol id="facebook" viewBox="0 0 26 30">
+        <path d="M18.9474 30V16.875H28.4211L30 11.25H18.9474V8.4375C18.9474 6.5625 20.5295 5.625 23.6842 5.625H28.4211V0C26.8421 0 23.3053 0 20.5263 0C12.6316 0 9.47368 2.8125 9.47368 7.5V11.25H0V16.875H9.47368V30H18.9474Z"/>
+        
+        </symbol>
+        <symbol id="google-plus" viewBox="0 0 51 50">
+        <path d="M49.3942 20.9829H41.8551V12.5922C41.8551 11.952 41.3884 11.4314 40.8144 11.4314H38.6676C38.0896 11.4314 37.6229 11.952 37.6229 12.5922V20.9829H30.0837C29.5097 20.9829 29.041 21.5047 29.041 22.146V24.5358C29.041 25.1771 29.5097 25.6966 30.0837 25.6966H37.6229V34.0918C37.6229 34.7331 38.0896 35.2526 38.6676 35.2526H40.8144C41.3884 35.2526 41.8551 34.7331 41.8551 34.0918V25.6955H49.3942C49.9683 25.6955 50.437 25.176 50.437 24.5347V22.1448C50.437 21.5035 49.9683 20.9829 49.3942 20.9829Z"/>
+        <path d="M24.059 28.3412C22.4733 27.091 21.0321 25.2576 21.0071 24.6945C21.0071 23.6688 21.0893 23.1783 23.1558 21.3862C25.8274 19.0578 27.2987 15.9965 27.2987 12.762C27.2987 9.82919 26.4938 7.22372 25.1239 5.39364H26.1867C26.4065 5.39364 26.6223 5.31766 26.7979 5.17465L29.7636 2.78258C30.1319 2.48874 30.2865 1.96474 30.146 1.48543C30.0044 1.00724 29.607 0.681 29.1544 0.681H15.8906C14.4394 0.681 12.9651 0.965903 11.5179 1.52007C6.68449 3.37585 3.30432 7.96112 3.30432 12.6682C3.30432 19.3372 7.94503 24.3917 14.1484 24.5503C14.0269 25.0788 13.9657 25.5994 13.9657 26.11C13.9657 27.1379 14.1995 28.1111 14.6813 29.0518C14.6251 29.0518 14.5709 29.0518 14.5107 29.0518C8.59738 29.0518 3.26016 32.2818 1.23387 37.0883C0.705968 38.3385 0.437 39.6022 0.437 40.8502C0.437 42.0635 0.717008 43.2311 1.26598 44.3282C2.53957 46.8644 5.27441 48.8319 8.97072 49.871C10.8786 50.4073 12.929 50.681 15.0576 50.681C16.9705 50.681 18.7941 50.4062 20.4802 49.8632C25.7371 48.1638 29.1363 43.8556 29.1363 38.8826C29.1353 34.1108 27.7574 31.2539 24.059 28.3412ZM7.30773 39.2648C7.30773 35.7934 11.269 32.7488 15.7843 32.7488H15.9057C16.8882 32.7622 17.8467 32.9231 18.7499 33.2315C19.06 33.4695 19.3591 33.6963 19.6462 33.9142C21.7377 35.5007 23.1197 36.5476 23.504 38.2279C23.5944 38.6514 23.6395 39.0748 23.6395 39.4849C23.6395 43.8076 20.7441 45.9985 15.0305 45.9985C10.6999 45.9985 7.30773 43.0422 7.30773 39.2648ZM11.4165 6.4651C12.1221 5.56793 13.0464 5.09421 14.0841 5.09421L14.2016 5.09645C17.1331 5.19253 19.9382 8.82924 20.4541 13.2033C20.7441 15.6524 20.2543 17.9551 19.1484 19.3584C18.4408 20.2578 17.5295 20.7315 16.4496 20.7315C16.4496 20.7315 16.4496 20.7315 16.4476 20.7315H16.4005C13.5291 20.6332 10.6638 16.8579 10.151 12.4894C9.86293 10.0471 10.3246 7.85163 11.4165 6.4651Z"/>
+        
+        </symbol>
+        <symbol id="instagram" viewBox="0 0 50 50">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M41.3449 11.6551C41.3449 13.3121 40.0016 14.6551 38.3449 14.6551C36.6883 14.6551 35.3449 13.3121 35.3449 11.6551C35.3449 9.99805 36.6883 8.65508 38.3449 8.65508C40.002 8.65508 41.3449 9.99805 41.3449 11.6551ZM25 33.3332C20.3977 33.3332 16.6668 29.6023 16.6668 25C16.6668 20.3977 20.3977 16.6668 25 16.6668C29.6023 16.6668 33.3332 20.3977 33.3332 25C33.3332 29.6023 29.6023 33.3332 25 33.3332ZM25 12.1621C17.9098 12.1621 12.1621 17.9098 12.1621 25C12.1621 32.0902 17.9098 37.8379 25 37.8379C32.0902 37.8379 37.8379 32.0902 37.8379 25C37.8379 17.9098 32.0902 12.1621 25 12.1621ZM25 4.50469C31.6754 4.50469 32.466 4.53008 35.102 4.65039C37.5395 4.76172 38.8633 5.16875 39.7441 5.51133C40.9109 5.96484 41.7437 6.50664 42.6187 7.38164C43.4937 8.25625 44.0355 9.08906 44.4891 10.2563C44.8312 11.1371 45.2387 12.4609 45.35 14.8984C45.4703 17.5348 45.4957 18.3254 45.4957 25.0008C45.4957 31.6762 45.4703 32.4668 45.35 35.1027C45.2387 37.5402 44.8316 38.8641 44.4891 39.7449C44.0355 40.9117 43.4937 41.7445 42.6187 42.6195C41.7441 43.4945 40.9113 44.0363 39.7441 44.4898C38.8633 44.832 37.5395 45.2395 35.102 45.3508C32.466 45.4711 31.6754 45.4965 25 45.4965C18.3242 45.4965 17.5336 45.4711 14.8977 45.3508C12.4602 45.2395 11.1363 44.8324 10.2555 44.4898C9.08867 44.0363 8.25586 43.4945 7.38086 42.6195C6.50625 41.7449 5.96406 40.9121 5.51055 39.7449C5.16836 38.8641 4.76094 37.5402 4.64961 35.1027C4.5293 32.4664 4.50391 31.6758 4.50391 25.0008C4.50391 18.3254 4.5293 17.5348 4.64961 14.8984C4.76094 12.4609 5.16797 11.1371 5.51055 10.2563C5.96406 9.08945 6.50586 8.25664 7.38086 7.38164C8.25547 6.50664 9.08828 5.96484 10.2555 5.51133C11.1363 5.16914 12.4602 4.76172 14.8977 4.65039C17.534 4.53008 18.3246 4.50469 25 4.50469ZM25 0C18.2105 0 17.359 0.0289063 14.6926 0.150391C12.0316 0.271875 10.2141 0.694531 8.62422 1.3125C6.98008 1.95117 5.58594 2.80625 4.19609 4.19609C2.80625 5.58594 1.95117 6.98008 1.3125 8.62422C0.694531 10.2145 0.271875 12.0316 0.150391 14.6926C0.0289063 17.359 0 18.2105 0 25C0 31.7895 0.0289063 32.641 0.150391 35.3074C0.271875 37.9684 0.694531 39.7855 1.3125 41.3758C1.95117 43.0199 2.80625 44.4141 4.19609 45.8039C5.58594 47.1938 6.98008 48.0484 8.62422 48.6875C10.2145 49.3055 12.0316 49.7281 14.6926 49.8496C17.359 49.9711 18.2105 50 25 50C31.7895 50 32.641 49.9711 35.3074 49.8496C37.9684 49.7281 39.7855 49.3055 41.3758 48.6875C43.0199 48.0484 44.4141 47.1938 45.8039 45.8039C47.1938 44.4141 48.0484 43.0199 48.6875 41.3758C49.3055 39.7855 49.7281 37.9684 49.8496 35.3074C49.9711 32.641 50 31.7895 50 25C50 18.2105 49.9711 17.359 49.8496 14.6926C49.7281 12.0316 49.3055 10.2145 48.6875 8.62422C48.0484 6.98008 47.1938 5.58594 45.8039 4.19609C44.4141 2.80625 43.0199 1.95156 41.3758 1.3125C39.7855 0.694531 37.9684 0.271875 35.3074 0.150391C32.641 0.0289063 31.7895 0 25 0Z"/>
+        <defs>
+        <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(7.46527 50.1736) scale(63.8875)">
+      
+        <stop offset="0.2559" stop-color="#FF5445"/>
+        <stop offset="0.599" stop-color="#FC2B82"/>
+        <stop offset="1" stop-color="#8E40B7"/>
+        </radialGradient>
+        </defs>
+        
+        </symbol>
+        <symbol id="keyboard" viewBox="0 0 32 20">
+        <path d="M31 1H1V19H31V1Z" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M7 5H5" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M11 5H9" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M15 5H13" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M19 5H17" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M23 5H21" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M27 5H25" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M7 10H5" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M11 10H9" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M15 10H13" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M19 10H17" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M23 10H21" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M27 10H25" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M7 15H5" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M23 15H9" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M27 15H25" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+        
+        </symbol>
+        <symbol id="light" viewBox="0 0 59 88">
+        <path d="M47.9415 6.67267C41.1535 1.07867 32.2175 -1.14733 23.4295 0.563674C11.5985 2.86667 2.09653 12.8537 0.32253 24.8507C-1.12447 34.6407 2.35353 44.4177 9.62653 51.0057C12.9035 53.9737 14.8805 58.2487 15.1945 63.0447C15.2005 63.1317 15.2175 63.2157 15.2365 63.2987V78.3377C15.2365 79.1657 15.9075 79.8377 16.7365 79.8377H18.2315C18.8405 84.1967 22.0445 87.5347 25.9035 87.5347H32.7135C36.5725 87.5347 39.7755 84.1967 40.3845 79.8377H41.8795C42.7075 79.8377 43.3795 79.1657 43.3795 78.3377V63.0587C43.3795 63.0557 43.3805 63.0527 43.3805 63.0487C43.3805 58.5867 45.4065 54.2777 49.0865 50.9157C55.1485 45.3777 58.6245 37.5007 58.6245 29.3057C58.6255 20.5177 54.7315 12.2677 47.9415 6.67267ZM24.0045 35.1407H21.6995C20.4285 35.1407 19.3945 34.1067 19.3945 32.8357C19.3945 31.5647 20.4285 30.5307 21.6995 30.5307C22.9705 30.5307 24.0045 31.5647 24.0045 32.8357V35.1407ZM34.6135 32.8357C34.6135 31.5647 35.6475 30.5307 36.9195 30.5307C38.1905 30.5307 39.2245 31.5647 39.2245 32.8357C39.2245 34.1067 38.1905 35.1407 36.9195 35.1407H34.6165L34.6135 32.8357ZM33.7105 64.4417H40.3805V76.8377H39.0075C39.0045 76.8377 39.0015 76.8367 38.9975 76.8367C38.9935 76.8367 38.9915 76.8377 38.9875 76.8377H19.6295C19.6265 76.8377 19.6235 76.8367 19.6195 76.8367C19.6155 76.8367 19.6135 76.8377 19.6095 76.8377H18.2375V64.4417H32.6035H33.7105ZM27.0045 61.4417V38.1407H31.6215L31.6555 61.4417H27.0045ZM32.7135 84.5347H25.9035C23.6655 84.5347 21.7865 82.5307 21.2665 79.8377H37.3495C36.8305 82.5307 34.9515 84.5347 32.7135 84.5347ZM47.0635 48.7017C43.1915 52.2387 40.8995 56.7147 40.4705 61.4417H34.6545L34.6215 38.1407H36.9195C39.8445 38.1407 42.2245 35.7607 42.2245 32.8357C42.2245 29.9107 39.8445 27.5307 36.9195 27.5307C33.9935 27.5307 31.6135 29.9107 31.6135 32.8377L31.6165 35.1407H27.0045V32.8357C27.0045 29.9107 24.6245 27.5307 21.6995 27.5307C18.7745 27.5307 16.3945 29.9107 16.3945 32.8357C16.3945 35.7607 18.7745 38.1407 21.6995 38.1407H24.0045V61.4417H18.0325C17.3965 56.4367 15.1685 51.9767 11.6395 48.7817C5.11153 42.8677 1.98953 34.0857 3.28953 25.2887C4.88053 14.5287 13.3975 5.57267 24.0015 3.50767C31.9095 1.96967 39.9395 3.96567 46.0315 8.98767C52.1275 14.0107 55.6235 21.4167 55.6235 29.3067C55.6255 36.6607 52.5045 43.7307 47.0635 48.7017Z"/>
+        
+        </symbol>
+        <symbol id="pinterest" viewBox="0 0 32 32">
+        <path d="M15.996 0.00700378C7.162 0.00700378 0 7.168 0 16.004C0 22.555 3.938 28.181 9.575 30.654C9.53 29.536 9.567 28.195 9.853 26.982C10.161 25.681 11.911 18.263 11.911 18.263C11.911 18.263 11.399 17.242 11.399 15.734C11.399 13.365 12.775 11.594 14.486 11.594C15.94 11.594 16.643 12.685 16.643 13.994C16.643 15.456 15.709 17.644 15.231 19.67C14.83 21.366 16.083 22.75 17.753 22.75C20.784 22.75 22.825 18.859 22.825 14.246C22.825 10.741 20.464 8.118 16.17 8.118C11.318 8.118 8.296 11.735 8.296 15.777C8.296 17.171 8.707 18.154 9.35 18.915C9.647 19.265 9.688 19.404 9.579 19.806C9.505 20.102 9.329 20.809 9.255 21.089C9.148 21.496 8.821 21.64 8.454 21.489C6.219 20.579 5.179 18.131 5.179 15.379C5.179 10.836 9.01 5.386 16.612 5.386C22.718 5.386 26.74 9.806 26.74 14.55C26.74 20.825 23.249 25.513 18.107 25.513C16.379 25.513 14.754 24.579 14.2 23.521C14.2 23.521 13.27 27.207 13.075 27.917C12.735 29.148 12.071 30.383 11.465 31.344C12.901 31.769 14.421 32 15.996 32C24.83 32 31.991 24.84 31.991 16.004C31.991 7.168 24.83 0.00700378 15.996 0.00700378Z"/>
+        
+        </symbol>
+        <symbol id="rss" viewBox="0 0 54 54">
+        <path d="M9.14345 37.7148C5.20063 37.7148 2.00082 40.9133 2.00082 44.8578C2.00082 48.8018 5.20063 52 9.14345 52C13.0883 52 16.2869 48.8014 16.2869 44.8578C16.2869 40.9129 13.0883 37.7148 9.14345 37.7148Z"/>
+        <path d="M2 18.6667V28.1911C15.1296 28.1911 25.8109 38.8716 25.8109 52H35.3337C35.3337 33.6204 20.3808 18.6667 2 18.6667Z"/>
+        <path d="M2.00082 2V11.5236C24.3196 11.5236 42.478 29.6804 42.478 52H52C52 24.4308 29.5708 2 2.00082 2Z"/>
+        <path d="M9.14345 37.7148C5.20063 37.7148 2.00082 40.9133 2.00082 44.8578C2.00082 48.8018 5.20063 52 9.14345 52C13.0883 52 16.2869 48.8014 16.2869 44.8578C16.2869 40.9129 13.0883 37.7148 9.14345 37.7148Z"/>
+        <path d="M2 18.6667V28.1911C14.2334 28.1911 24.3383 37.4667 25.6594 49.353C28.9227 48.4087 31.9649 47.1818 34.7337 45.7242C31.7889 30.3358 18.2345 18.6667 2 18.6667Z"/>
+        <path d="M9.14345 37.7148C5.20063 37.7148 2.00082 40.9133 2.00082 44.8578C2.00082 47.1484 3.08399 49.1819 4.76109 50.4883C8.62732 49.0984 12.5164 47.1052 16.271 44.5449C16.106 40.7475 12.9828 37.7148 9.14345 37.7148Z"/>
+        <path d="M2 18.6667V28.1911C10.6454 28.1911 18.2263 32.8224 22.3985 39.7316C23.2083 39.0061 24.0096 38.2573 24.7946 37.4728C26.3511 35.9175 27.7923 34.3064 29.1219 32.6562C23.0694 24.197 13.1714 18.6667 2 18.6667Z"/>
+        <path d="M2.00082 2V11.5236C14.6758 11.5236 26.0028 17.3827 33.4314 26.5307C35.2926 23.4698 36.7803 20.3425 37.883 17.2315C28.7891 7.84845 16.0689 2 2.00082 2Z"/>
+        <path d="M12.5033 38.5555C11.5016 38.0211 10.3582 37.7148 9.14345 37.7148C5.20063 37.7148 2.00082 40.9133 2.00082 44.8578C2.00082 46.2285 2.39474 47.5048 3.06403 48.5933C6.67649 46.2326 9.88769 42.7994 12.5033 38.5555Z"/>
+        <path d="M18.5139 23.0625C13.6419 20.2712 8.0065 18.6667 2 18.6667V28.1911C7.05736 28.1911 11.7473 29.7806 15.607 32.4794C16.8303 29.5602 17.8128 26.4024 18.5139 23.0625Z"/>
+        <path d="M2.00082 11.5236C8.29533 11.5236 14.2554 12.9677 19.573 15.5406C19.6879 14.0305 19.7515 12.4997 19.7515 10.9444C19.7515 8.97927 19.6509 7.04839 19.4692 5.1554C14.0277 3.12024 8.1442 2 2.00082 2V11.5236Z"/>
+        <path d="M9.14345 37.7148C5.20063 37.7148 2.00082 40.9133 2.00082 44.8578C2.00082 48.8018 5.20063 52 9.14345 52C13.0883 52 16.2869 48.8014 16.2869 44.8578C16.2869 40.9129 13.0883 37.7148 9.14345 37.7148Z" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M2 18.6667V28.1911C15.1296 28.1911 25.8109 38.8716 25.8109 52H35.3337C35.3337 33.6204 20.3808 18.6667 2 18.6667Z" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M2.00082 2V11.5236C24.3196 11.5236 42.478 29.6804 42.478 52H52C52 24.4308 29.5708 2 2.00082 2Z" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M9.14345 37.7148C5.20063 37.7148 2.00082 40.9133 2.00082 44.8578C2.00082 48.8018 5.20063 52 9.14345 52C13.0883 52 16.2869 48.8014 16.2869 44.8578C16.2869 40.9129 13.0883 37.7148 9.14345 37.7148Z" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M34.7337 45.7242C31.7889 30.3358 18.2345 18.6667 2 18.6667V28.1911C14.2334 28.1911 24.3383 37.4667 25.6594 49.353" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M48.293 33.1356C40.8315 14.8921 22.8979 2 2.00082 2V11.5236C20.7112 11.5236 36.4906 24.2862 41.106 41.5631" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M16.271 44.5449C16.106 40.7475 12.9828 37.7143 9.14345 37.7143C5.20063 37.7143 2.00082 40.9129 2.00082 44.8574C2.00082 47.1479 3.08399 49.1815 4.76109 50.4879" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M29.1219 32.6562C23.0694 24.197 13.1714 18.6667 2 18.6667V28.1911C10.6454 28.1911 18.2263 32.8224 22.3985 39.7316" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M37.883 17.2315C28.7891 7.84845 16.0689 2 2.00082 2V11.5236C14.6758 11.5236 26.0028 17.3827 33.4314 26.5307" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M12.5033 38.5555C11.5016 38.0211 10.3582 37.7148 9.14345 37.7148C5.20063 37.7148 2.00082 40.9133 2.00082 44.8578C2.00082 46.2285 2.39474 47.5048 3.06403 48.5933" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M18.5139 23.0625C13.6419 20.2712 8.0065 18.6667 2 18.6667V28.1911C7.05736 28.1911 11.7473 29.7806 15.607 32.4794" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M19.4692 5.1554C14.0277 3.12024 8.1442 2 2.00082 2V11.5236C8.29533 11.5236 14.2554 12.9677 19.573 15.5406" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        
+        </symbol>
+        <symbol id="stumbleupon" viewBox="0 0 64 64">
+        <path d="M56.6 32.4H53.7C51.8 32.4 50.3 33.9 50.3 35.8V43.7C50.3 45.1 49.4 46.4 48 46.7C46.2 47 44.6 45.6 44.6 43.9V36.5C44.6 35.9 44 35.4 43.4 35.6L40.3 36.6C39.3 36.9 38.3 36.8 37.4 36.4L36.3 35.8C35.7 35.5 35 35.9 35 36.6V43.4C35 50.3 40.4 56.3 47.3 56.4C54.2 56.6 60 51 60 43.9V35.8C60 34 58.5 32.4 56.6 32.4Z"/>
+        <path d="M15.5 56.4C22.9 57 28.9 51.2 28.9 43.9L29.1 35.2V24.7C29.1 23.3 30 22 31.4 21.7C33.2 21.4 34.8 22.8 34.8 24.5V25.9C34.8 26.8 35.3 27.7 36.1 28.1L37.7 28.9C38.3 29.2 38.9 29.2 39.5 29L42.7 27.9C43.7 27.6 44.4 26.6 44.4 25.6V24.4C44.4 17.1 38.1 11.2 30.6 11.9C24.1 12.5 19.3 18.3 19.3 24.8V35.1V43.6C19.3 45 18.4 46.3 17 46.6C15.2 46.9 13.6 45.5 13.6 43.8V39.5C13.6 37.7 12.2 36.3 10.4 36.3H7.2C5.4 36.3 4 37.7 4 39.5V43.4C4 50.1 8.9 55.9 15.5 56.4Z"/>
+        
+        </symbol>
+        <symbol id="twitter" viewBox="0 0 32 26">
+        <path d="M31.993 3.077C30.816 3.6 29.552 3.953 28.223 4.11C29.578 3.298 30.619 2.012 31.11 0.48C29.841 1.231 28.437 1.779 26.942 2.072C25.744 0.797 24.038 0 22.149 0C18.524 0 15.587 2.938 15.587 6.563C15.587 7.077 15.644 7.579 15.756 8.059C10.301 7.785 5.465 5.172 2.227 1.201C1.663 2.171 1.339 3.298 1.339 4.501C1.339 6.779 2.498 8.787 4.258 9.965C3.183 9.93 2.171 9.636 1.286 9.144C1.285 9.171 1.285 9.2 1.285 9.226C1.285 12.407 3.547 15.06 6.55 15.663C6 15.812 5.42 15.893 4.821 15.893C4.397 15.893 3.987 15.852 3.587 15.776C4.421 18.382 6.846 20.28 9.717 20.334C7.472 22.094 4.642 23.145 1.567 23.145C1.037 23.145 0.513999 23.114 0.000999451 23.053C2.905 24.913 6.355 26 10.062 26C22.134 26 28.737 15.999 28.737 7.325C28.737 7.041 28.729 6.757 28.717 6.475C30 5.55 31.112 4.395 31.993 3.077Z"/>
+        
+        </symbol>
+        <symbol id="weather" viewBox="0 0 27 46">
+        <path d="M4.87999 0L0.269989 26.45H9.47999L4.87999 46L26.73 18.4H16.38L25.58 0H4.87999Z"/>
+        
+        </symbol></svg>
+    </div>
+    
+    
+    <!-- Header section -->
+    <header class="c-header-section u-bkg-black">
+        <nav class="c-nav__header d-flex">
+            <a class="c-nav__logo u-color-white">
+                <img src="images/logo-img.png" alt="Axit Logo">
+            </a>
+            <button class="c-nav__toggle u-color-white js-menu-toggle">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <div class="c-links__container u-bkg-black">
+                <a href="#features" class="text-center u-color-white">Features</a>
+                <a href="#about" class="text-center u-color-white">About</a>
+                <a href="#pricing" class="text-center u-color-white">Pricing</a>
+                <a href="#review" class="text-center u-color-white">Review</a>
+                <a href="#contact" class="text-center u-color-white">Contact</a>
+            </div>
+        </nav>   
+    </header>
+    <!-- End Header section -->
+    
+    <!-- Hero section -->
+    <section class="c-hero-section d-flex">
+        <div class="u-container">
+            <div class="c-grid c-grid--two c-grid--gap">
+                <div class="c-hero-pitch u-mx">
+                    <h1>AX<span>IT</span></h1>
+                    <h2>modern axure template for beautiful prototypes</h2>
+                    <hr class="u-line u-bkg-white">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Aenean
+                        euismod bibendum laoreel. Proin gravida dolor sit amet lacus
+                        accumsan et viverra justo commodo.
+                    </p>
+                    <button class="c-btn c-btn--size">Download</button>
+                    <!-- Modal -->
+                    <button class="c-btn c-btn--white u-text-center u-my js-trigger">Contact</button>
+                        <div class="c-modal">
+                            <div class="c-modal-content">
+                                <span class="close-button">×</span>
+                                <section class="c-section">
+                                    <div class="u-container">
+                                        <h2 class="c-section__title margin-top u-text-center u-color-grey-dark">contact us</h2>
+                                        <hr class="u-line u-bkg-warning mx-0">
+                                        <p class="u-text-center u-mt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <form action="#" class="c-form c-grid c-grid--two c-grid--gap">
+                                            <div class="c-form-group d-flex">
+                                                <input class="c-field-control" type="text" placeholder="Name">
+                                                <input class="c-field-control" type="email" placeholder="Email">
+                                                <input class="c-field-control" type="text" placeholder="Subject">
+                                            </div>
+                                            <div class="c-form-group d-flex u-mx">
+                                                <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                                            </div>
+                                        </form>  
+                                        <div class="u-text-center">
+                                            <button class="c-btn c-btn--warning">Send Message</button>
+                                        </div>
+                                    </div> 
+                                </section>
+                            </div>
+                        </div>
+                    <!-- End Modal -->
+                </div>
+                <div class="c-form d-flex u-bkg-white">
+                    <h3 class="u-text-center u-bkg-grey-light">Try Your <span class="u-text-uppercase u-color-warning">free </span>Trial Today</h3>
+                    <input class="c-field-control" type="text" placeholder="Name">
+                    <input class="c-field-control" type="email" placeholder="Email">
+                    <input class="c-field-control" type="password" placeholder="Password">
+                    <button class="c-btn c-btn--block c-btn--warning u-text-center">Get Started</button>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <!-- End Hero section -->
+    
+    <!-- Social Media container -->
+    <div class="u-container">
+        <div class="c-social-container text-center u-my">
+            <div>
+                <h3 class="u-color-grey-dark">Social Media</h3>
+                <p>Lorem ipsum dolor sit amet, consecteetur adipiscing elit.</p>
+                <p>Aenean euismod bibendum laoreet.</p>
+            </div>
+            <div class="c-social-icons u-color-grey">
+                <svg class="c-icon c-icon--large">
+                    <use href="#facebook"/>
+                </svg>
+                <svg class="c-icon c-icon--large">
+                    <use href="#twitter"/>
+                </svg>
+                <svg class="c-icon c-icon--large">
+                    <use href="#google-plus"/>
+                </svg>
+                <svg class="c-icon c-icon--large">
+                    <use href="#pinterest"/>
+                </svg>
+                <svg class="c-icon c-icon--large">
+                    <use href="#instagram"/>
+                </svg>
+                <svg class="c-icon c-icon--large">
+                    <use href="#stumbleupon"/>
+                </svg>
+                <svg class="c-icon c-icon--large">
+                    <use href="#rss"/>
+                </svg>  
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Social Media container -->
+    
+    <!-- Tab section -->
+    <section class="c-section u-bkg-grey-light">
+        <div class="u-container c-tabs d-flex js-tabs" id="tabs">
+            <div class="c-tab-list d-flex u-ml u-my js-tabs__header">
+                <button class="c-tab-list__btn js-tabs__title js-tabs__title-active u-color-white">tab1</button>
+                <button class="c-tab-list__btn js-tabs__title js-tabs__title-active u-color-white">tab2</button>
+                <button class="c-tab-list__btn js-tabs__title js-tabs__title-active u-color-white">tab3</button>
+            </div>
+            <div class="tab-container">
+                <div class="c-tabs-content u-mt js-tabs__content">
+                    <div class="c-tabs-content__desc">
+                        <h3>1.Tabs with soft transitioning effect.</h3>
+                        <p class="u-my">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                            penatibus et magnis dis parturient montes.
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                            bibendum laoreet.
+                        </p>
+                        <button class="c-btn c-btn--warning u-my">Download</button>
+                    </div>
+                    <div class="c-tabs-img d-flex">
+                        <img class="c-tabs-img__img" src="images/image-tab.png" alt="Buildings Image">
+                    </div>
+                </div>
+                <div class="c-tabs-content u-mt js-tabs__content">
+                    <div class="c-tabs-content__desc">
+                        <h3>2.Tabs with soft transitioning effect.</h3>
+                        <p class="u-my">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                            penatibus et magnis dis parturient montes.
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                            bibendum laoreet.
+                        </p>
+                        <button class="c-btn c-btn--warning u-my">Download</button>
+                    </div>
+                    <div class="c-tabs-img d-flex">
+                        <img class="c-tabs-img__img" src="images/image-tab.png" alt="Buildings Image">
+                    </div>
+                </div>
+                <div class="c-tabs-content u-mt js-tabs__content">
+                    <div class="c-tabs-content__desc">
+                        <h3>3.Tabs with soft transitioning effect.</h3>
+                        <p class="u-my">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                            penatibus et magnis dis parturient montes.
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                            bibendum laoreet.
+                        </p>
+                        <button class="c-btn c-btn--warning u-my">Download</button>
+                    </div>
+                    <div class="c-tabs-img d-flex">
+                        <img class="c-tabs-img__img" src="images/image-tab.png" alt="Buildings Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Tab section -->
+    
+    <!-- Sub section -->
+    <section class="c-section">
+        <div class="u-container">
+            <div class="c-grid c-grid--two c-grid--gap u-mx">
+                <div class="c-standard-img mx-0">
+                    <img src="images/image-left-sub.png" alt="City">
+                </div>
+                <div class="c-standard-content">
+                    <h3 class="c-standard__title u-text-left">Sub list section</h3>
+                    <hr class="u-line u-bkg-warning u-my">
+                    <p class="u-text-left u-mb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                        eccumsan et viverra justro commodo.
+                    </p>
+                    <div class="c-sub-content">
+                        <div class="c-icon__circle">
+                            <svg class="c-icon">
+                                <use href="#download"/>
+                            </svg> 
+                        </div> 
+                        <div class="c-sub__desc">
+                            <h5>Title</h5>
+                            <p class="u-text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Aenean euismod bibendum laoreet.</p>
+                        </div>
+                    </div>
+                    <div class="c-sub-content">
+                        <div class="c-icon__circle">
+                            <svg class="c-icon">
+                                <use href="#download"/>
+                            </svg> 
+                        </div> 
+                        <div class="c-sub__desc">
+                            <h5>Title</h5>
+                            <p class="u-text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Aenean euismod bibendum laoreet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Sub section -->
+    
+    <!-- Standard section -->
+    <section class="c-section u-bkg-grey-light">
+        <div class="u-container">
+            <div class="c-grid c-grid--two c-grid--gap u-mx">
+                <div class="c-standard-content">
+                    <h3 class="c-standard__title u-text-left">Standard Picture Section</h3>
+                    <hr class="u-line u-bkg-warning u-my">
+                    <p class="u-text-left u-mb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                        eccumsan et viverra justro commodo. Proin sodales pulvinar tempor. 
+                        Cum sociis natoque penatibus et magnis dis parturient montes.
+                    </p>
+                    <p class="u-text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Aenean euismod bibendum laoreet.
+                    </p>
+                </div>  
+                <div class="c-standard-img mx-0">
+                    <img class="u-ml" src="images/image-right-standard.png" alt="City">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Standard section -->
+    
+    <!-- Awesome section -->
+    <section class="c-section">
+        <div class="u-container">
+            <h2 class="c-section__title u-text-center u-color-grey-black">why this is awesome</h2>
+            <hr class="u-line u-bkg-warning mx-0">
+            <p class="u-text-center u-mt">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p> 
+            <div class="c-grid c-grid--three c-grid--gap u-text-center u-mt u-mx">
+                <div class="c-awesome-card">
+                    <div class="c-icon__circle c-icon__circle--lg">
+                        <svg class="c-icon">
+                            <use href="#light"/>
+                        </svg> 
+                    </div> 
+                    <h3 class="c-awesome-card__title">Thoughtful Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aenean euismod bibendum laoreet. Proin gravida dolor sit
+                        amet lacusaccumsan et viverra.
+                    </p>
+                </div>
+                <div class="c-awesome-card">
+                    <div class="c-icon__circle c-icon__circle--lg">
+                        <svg class="c-icon">
+                            <use href="#keyboard"/>
+                        </svg> 
+                    </div> 
+                    <h3 class="c-awesome-card__title">Well Crafted</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aenean euismod bibendum laoreet. Proin gravida dolor sit
+                        amet lacusaccumsan et viverra.
+                    </p>
+                </div>
+                <div class="c-awesome-card">
+                    <div class="c-icon__circle c-icon__circle--lg">
+                        <svg class="c-icon">
+                            <use href="#weather"/>
+                        </svg>  
+                    </div>
+                    <h3 class="c-awesome-card__title">Easy to Customize</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aenean euismod bibendum laoreet. Proin gravida dolor sit
+                        amet lacusaccumsan et viverra.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Awesome section -->
+    
+    <!-- Pricing section -->
+    <section class="c-section u-bkg-grey-light">
+        <div class="u-container">
+            <h2 class="c-section__title u-text-center u-color-grey-black">pricing options</h2>
+            <hr class="u-line u-bkg-warning mx-0">
+            <p class="u-text-center u-mt">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+            <div class="c-grid c-grid--three c-grid--gap u-align-center u-mt u-mx">
+                <div class="c-pricing-card u-bkg-white text-center u-mt">
+                    <h3 class="c-pricing-card__title u-color-white u-bkg-grey-black">Basic</h3>
+                    <h1 class="c-pricing-card__price u-color-white u-bkg-grey-black"><span class="u-font-size u-color-white">$</span>0</h1>
+                    <h5 class="c-pricing-card__subtitle u-color-grey-light u-bkg-grey-black">Free for Life</h5>
+                    <div class="c-pricing-card__content text-uppercase">
+                        <p>1 gb og space</p>
+                        <p>10 gb of bandwidth</p>
+                        <p>3 websites</p>
+                        <p>basic customization</p>
+                        <p>wordpress integration</p>
+                        <p>email support</p>
+                    </div>
+                </div>
+                <div class="c-pricing-card text-center u-bkg-white">
+                    <h3 class="c-pricing-card__title u-color-white u-bkg-grey-black">Professional</h3>
+                    <h1 class="c-pricing-card__price u-color-white u-bkg-grey-black u-align-center"><span class="u-font-size u-color-white">$</span><span class="c-pricing-card--size u-color-white">1</span>9</h1>
+                    <h5 class="c-pricing-card__subtitle u-color-grey-light u-bkg-grey-black">Monthly Payment</h5>
+                    <p class="c-pricing-card--padding u-color-white u-bkg-warning">our most popular</p>
+                    <div class="c-pricing-card__content text-uppercase">
+                        <p>5 gb og space</p>
+                        <p>50 gb of bandwidth</p>
+                        <p>12 websites</p>
+                        <p>advanced customization</p>
+                        <p>wordpress integration</p>
+                        <p>email support</p>
+                    </div>
+                </div>
+                <div class="c-pricing-card text-center u-bkg-white u-mt">
+                    <h3 class="c-pricing-card__title u-color-white u-bkg-grey-black">Enterprise</h3>
+                    <h1 class="c-pricing-card__price u-color-white u-bkg-grey-black u-align-center"><span class="u-font-size u-color-white">$</span>7<span class="c-pricing-card--size u-color-white">0</span></h1>
+                    <h5 class="c-pricing-card__subtitle u-color-grey-light u-bkg-grey-black">Monthly Payment</h5>
+                    <div class="c-pricing-card__content text-uppercase">
+                        <p>unlimited space</p>
+                        <p>unlimited bandwidth</p>
+                        <p>100 websites</p>
+                        <p>advanced customization</p>
+                        <p>wordpress integration</p>
+                        <p>24/7 customer support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Pricing section -->
+    
+    <!-- Testimonials -->
+    <section class="c-section">
+        <div class="u-container">
+            <h2 class="c-section__title margin-top u-text-center u-color-grey-black">what our customers are saying</h2>
+            <hr class="u-line u-bkg-warning mx-0">
+            <p class="u-text-center u-mt">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+            <div class="c-grid c-grid--three c-grid--gap u-mt u-mx">
+                <div class="c-testimonials__card text-center">
+                    <p class="c-testimonials__desc u-bkg-grey-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Doloribus accusamus expedita repellat similique odio 
+                        aspernatur ex, architecto eaque quo suscipit.
+                    </p>
+                    <div class="c-testimonials__content d-flex">
+                        <img src="images/avatar-img.png" alt="Avatar">
+                        <div class="c-testimonials__info">
+                            <h3>Jeremy H.</h3>
+                            <p>Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-testimonials__card text-center">
+                    <p class="c-testimonials__desc u-bkg-grey-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Doloribus accusamus expedita repellat similique odio 
+                        aspernatur ex, architecto eaque quo suscipit.
+                    </p>
+                    <div class="c-testimonials__content d-flex">
+                        <img src="images/avatar-img.png" alt="Avatar">
+                        <div class="c-testimonials__info">
+                            <h3>John S.</h3>
+                            <p>Freelancer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-testimonials__card text-center">
+                    <p class="c-testimonials__desc u-bkg-grey-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Doloribus accusamus expedita repellat similique odio 
+                        aspernatur ex, architecto eaque quo suscipit.
+                    </p>
+                    <div class="c-testimonials__content d-flex">
+                        <img src="images/avatar-img.png" alt="Avatar">
+                        <div class="c-testimonials__info">
+                            <h3>Susan W.</h3>
+                            <p>Photographer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Testimonials -->
+    
+    <!-- Stylish section -->
+    <section class="c-section c-section--stylish-block d-flex">
+        <div class="u-container u-mx">
+            <h2 class="c-section__title margin-top u-color-white u-text-center u-color-white">stylish axure desegn</h2>
+            <hr class="u-line u-bkg-white mx-0">
+            <p class="u-text-center u-mt">Use the sections you need remove the don't.
+                Create gorgeous prototypes faster than ever!
+            </p>
+            <div class="u-text-center u-my">
+                <button class="c-btn c-btn--white u-text-center u-my">Download</button>
+            </div>
+        </div>
+    </section>
+    <!-- End Stylish section -->
+    
+    <!-- Contact section -->
+    <section class="c-section">
+        <div class="u-container">
+            <h2 class="c-section__title margin-top u-text-center u-color-grey-dark">contact us</h2>
+            <hr class="u-line u-bkg-warning mx-0">
+            <p class="u-text-center u-mt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <form action="#" class="c-form c-grid c-grid--two c-grid--gap">
+                <div class="c-form-group d-flex">
+                    <input class="c-field-control" type="text" placeholder="Name">
+                    <input class="c-field-control" type="email" placeholder="Email">
+                    <input class="c-field-control" type="text" placeholder="Subject">
+                </div>
+                <div class="c-form-group d-flex u-mx">
+                    <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                </div>
+            </form>  
+            <div class="u-text-center">
+                <button class="c-btn c-btn--warning">Send Message</button>
+            </div>
+        </div> 
+    </section>
+    <!-- End Contact section -->
+    
+    <!-- Footer section -->
+    <footer class="c-footer u-bkg-black">
+        <div class="c-footer__icons u-text-center u-color-grey">
+            <svg class="c-icon">
+                <use href="#facebook"/>
+            </svg>
+            <svg class="c-icon">
+                <use href="#twitter"/>
+            </svg>
+            <svg class="c-icon">
+                <use href="#google-plus"/>
+            </svg>
+            <svg class="c-icon">
+                <use href="#pinterest"/>
+            </svg>
+            <svg class="c-icon">
+                <use href="#instagram"/>
+            </svg>
+            <svg class="c-icon">
+                <use href="#stumbleupon"/>
+            </svg>
+            <svg class="c-icon">
+                <use href="#rss"/>
+            </svg>  
+        </div>
+        <h5 class="u-text-center u-color-grey">&copy;2015 Axure Themes</h5>
+    </footer>
+    <!-- End Footer section -->
+    
+    <script src="js/vanilla-js-tabs.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
